@@ -16,3 +16,25 @@ ab.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 ab.setNegativeButton("no", null);
 <b>ab.show();</b>
 });
+
+## Button
+Button button = findViewById(R.id.button);
+button.setOnClickListener((v)->{
+});
+
+
+## Toast
+Toast.makeText(MainActivity.this, "You clicked a button", Toast.LENGTH_SHORT).show();
+
+## Intent
+Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+
+intent.putExtra("name", "Sathwik");
+intent.putExtra("age", 21);
+
+startActivity(intent);
+
+// In the other activity
+String name = getIntent().getStringExtra("name");
+
+## Something
