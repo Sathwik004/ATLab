@@ -38,7 +38,7 @@ startActivity(intent);
 
 String name = getIntent().getStringExtra("name");
 
-## spin
+## Spin
 
 String[] colorss={"Select", "Blue", "Black"};
 spin=findViewById(R.id.spinner);
@@ -69,7 +69,7 @@ public void onNothingSelected(AdapterView<?> parent) {
 }
 });
 
-## list (colorss array and adapter used from "spin")
+## List (colorss array and adapter used from "spin")
 
 listi= findViewById(R.id.listt);
         listi.setAdapter(adapter);
